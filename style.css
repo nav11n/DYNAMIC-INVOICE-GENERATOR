@@ -1,0 +1,30 @@
+body{
+    font-family: Verdana;
+   
+}
+#heading{
+    height: 80px;
+    background-color: #5F6F65;
+}
+#bill{
+    background-color: #626d5e ;
+}
+#total{
+   padding-left: 845px;
+   background-color: #d8bf33;
+}
+#final{
+    background-color: #cad642;
+}
+#tablerow{
+    height: 30px;
+}
+#product,#quantity,#price{
+    border: solid 1.57px;
+    border-radius: 5px;
+}
+#but1{
+    background-color: #6e6d70;
+    border-radius: 5px;
+    color: rgb(222, 232, 240);
+}

@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>
+            Dynamic invoice generator
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="heading">
+            <h1 style="text-align: center; padding: 20px;">Dynamic invoice generator</h1>
+        </div>
+
+        <table style="padding-top: 30px; padding-bottom: 60px;">
+            <tr style="height: 40px;">
+                <th style="width: 650px;">Product Name</th>
+                <th style="width: 200px;">Quantity</th>
+                <th style="width: 200px;">Price</th>
+            </tr>
+
+            <tr style="height: 40px;">
+                <th style="width: 650px;"><input type="text" id="product" style="width: 250px; padding: 7px;" placeholder="Add products"></th>
+                <th style="width: 200px;"><input type="text" id="quantity" style="padding: 7px;" placeholder="Quantity"></th>
+                <th style="width: 200px;"><input type="text" id="price" style="padding: 7px; width: 70px;" placeholder="Price"></th>
+                <th style="padding-left: 30px;"><button onclick="add()" id="but1" style="width: 120px; height: 30px;">Add Products</button></th>
+            </tr>
+        </table>
+   
+        <div style="border:solid 2px">
+        <div style="background-color: rgb(120, 145, 105); display: flex; padding: 20px;">
+            <h1 style="padding-left: 70px;">INVOICE</h1>
+            <div style="padding-left: 600px;">
+                <h2>Date and Time :</h2>
+                <p id="date"></p>
+            </div>
+        </div>
+
+        <table id="final" >
+            <tr style="height: 40px;">
+                <td style="width: 650px; padding-left: 40px;"><b>Product Name</b></td>
+                <td style="width: 300px;"><b>Quantity</b></td>
+                <td style="width: 300px;"><b>Price</b></td>
+            </tr>
+        </table>
+       
+        <div id="total"style="display:flex; height:50px;">
+            <h4 style="padding-left: 45px; ">Total : 0</h4>
+
+        </div>
+   
+        
+        </div>
+        
+
+
+
+
+        <script src="jsc.js"></script>
+    </body>
+</html>
